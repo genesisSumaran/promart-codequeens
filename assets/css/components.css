@@ -480,6 +480,7 @@
     background-color: rgba(228, 232, 240, 0.45);
 }
 
+/* Navegación secundaria / tabs simples */
 .inline-nav {
     display: flex;
     flex-wrap: wrap;
@@ -506,6 +507,7 @@
     color: var(--color-primary);
 }
 
+/* Empty state */
 .empty-state {
     display: grid;
     gap: var(--space-4);
@@ -528,6 +530,7 @@
     color: var(--color-text-muted);
 }
 
+/* Responsive */
 @media (max-width: 991.98px) {
     .kpi-grid {
         grid-template-columns: 1fr;
@@ -580,6 +583,7 @@
     }
 }
 
+/* Ajuste de los iconos en el header */
 .navbar-nav .nav-item .nav-link img {
     height: 20px;
     width: 20px;
