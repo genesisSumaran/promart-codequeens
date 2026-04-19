@@ -58,7 +58,7 @@
             required: "Selecciona si existen mensajes, testigos o evidencia.",
         },
         fullName: {
-            maxLength: "El nombre o alias es demasiado largo.",
+            maxLength: "El nombre es demasiado largo.",
         },
         contactEmail: {
             email: "Ingresa un correo válido o déjalo vacío.",

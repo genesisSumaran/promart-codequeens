@@ -18,11 +18,9 @@ const floatAnimation = `
         0% {
             transform: translateY(0);
         }
-
         50% {
             transform: translateY(-30px);
         }
-
         100% {
             transform: translateY(0);
         }
@@ -40,6 +38,13 @@ styleSheet.innerHTML = `
 
     #andrea-avatar img {
         ${avatarImgStyles}
+    }
+
+    /* Media Query para dispositivos móviles */
+    @media (max-width: 767px) {
+        #andrea-avatar {
+            width: 120px;  /* Reducir tamaño en móviles */
+        }
     }
 `;
 

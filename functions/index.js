@@ -135,7 +135,7 @@ function validatePayload(payload) {
     }
 
     if (payload.fullName && payload.fullName.length > 120) {
-        return invalid("El nombre o alias es demasiado largo.");
+        return invalid("El nombre  es demasiado largo.");
     }
 
     if (payload.contactEmail && !isValidEmail(payload.contactEmail)) {
