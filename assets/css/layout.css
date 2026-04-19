@@ -59,7 +59,7 @@
 
 
 .intro-section11 {
-    background-image: url('/assets/img/notodo.png');
+    background-image: url('../img/icons/notodo.png');
     background-size: cover;
     background-position: center;
     min-height: 500px;
@@ -69,7 +69,7 @@
 
 @media (max-width: 767px) {
     .intro-section11 {
-        background-image: url('/assets/img/MOVILES.png') !important;
+        background-image: url('../img/icons/moviles.png') !important;
 
         background-size: contain !important;
         background-repeat: no-repeat !important;

@@ -1,4 +1,3 @@
-// Crear los estilos para #andrea-avatar
 const avatarStyles = `
     position: fixed;
     bottom: 0px;
@@ -44,17 +43,13 @@ styleSheet.innerHTML = `
     }
 `;
 
-// Crear el div para el avatar
 const avatarDiv = document.createElement("div");
 avatarDiv.id = "andrea-avatar";
 
-// Crear la imagen para el avatar
 const avatarImg = document.createElement("img");
-avatarImg.src = "/assets/img/andrea.png"; // Reemplaza con la ruta correcta de la imagen
+avatarImg.src = "./assets/img/andrea.png";
 avatarImg.alt = "Avatar Andrea";
 
-// Añadir la imagen dentro del div
 avatarDiv.appendChild(avatarImg);
 
-// Agregar el avatar al body del documento
 document.body.appendChild(avatarDiv);
